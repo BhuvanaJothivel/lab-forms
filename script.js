@@ -27,3 +27,15 @@ $(function () {
             alert('Welcome to CODEPRO!');
     });
 });
+
+function myFunction(){
+    $('#page1').click(function (){
+        window.location.reload();
+        return false;
+    });
+
+    $('#page2').click(function (){
+        window.location.reload();
+        return false;
+    });
+}
